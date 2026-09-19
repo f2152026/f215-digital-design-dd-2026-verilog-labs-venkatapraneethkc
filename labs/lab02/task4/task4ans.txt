@@ -1,0 +1,11 @@
+(d) Observations
+
+The position of the delay changes the output behavior. 
+With faster input changes, the three implementations can produce different outputs, especially as the delay 
+increases.
+
+(e) What I learned
+
+The placement of a delay in Verilog matters.
+ A delay before an assignment delays when inputs are evaluated, while an intra-assignment delay evaluates
+ inputs immediately and delays when the output changes.
